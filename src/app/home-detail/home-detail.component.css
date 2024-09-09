@@ -30,6 +30,11 @@ img:hover {
   transform: scale(1.05);
 }
 
+.heading {
+  font-size: 18pt;
+  margin-bottom: 15px;
+}
+
 .property-heading {
   margin-bottom: 15px;
 }
@@ -49,16 +54,11 @@ img:hover {
 }
 
 .details-container {
+  vertical-align: top;
   display: flex;
   flex-direction: column;
   grid-area: container;
-}
-
-.details-col {
-  vertical-align: top;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .overview-section {
@@ -68,13 +68,8 @@ img:hover {
   padding: 1.5rem 1rem;
 }
 
-.heading {
-  font-size: 18pt;
-  margin-bottom: 15px;
-}
-
 .overview-values {
-  display: inline-flex;
+  display: flex;
   gap: 3rem;
   margin-top: 1rem;
 }
