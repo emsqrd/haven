@@ -33,6 +33,7 @@ img:hover {
 .heading {
   font-size: 18pt;
   margin-bottom: 15px;
+  border-bottom: 1px solid #d7d7d7;
 }
 
 .property-heading {
@@ -54,11 +55,12 @@ img:hover {
 }
 
 .details-container {
+  grid-area: container;
   vertical-align: top;
   display: flex;
   flex-direction: column;
-  grid-area: container;
   gap: 1rem;
+  min-width: 520px;
 }
 
 .overview-section {
@@ -88,12 +90,14 @@ img:hover {
 }
 
 .details-section {
-  display: flex;
-  column-count: 2;
   border: 1px solid #d7d7d7;
   border-radius: 12px;
   background-color: #fff;
   padding: 1.5rem 1rem;
+}
+
+.section-content {
+  column-count: 2;
 }
 
 .no-break-inside {
